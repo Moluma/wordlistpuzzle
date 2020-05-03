@@ -41,7 +41,7 @@ else:
 denychar = str(input("Banned characters (ex: 123abc!$&), (if you don't want to ban any just hit enter): "))
 for deniedchar in denychar:
     original_list.remove(deniedchar)
-passwd_number = len(original_list)**len(password)
+passwd_number = len(original_list)**length
 print("\nYou are about to generate a file of " + str(passwd_number) + " passwords.")
 r_u_sure = str(input("Do you want to continue? (y/n): "))
 if r_u_sure == "y":
